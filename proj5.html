@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #parent {
+        height: 550px;
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 80px;
+        box-sizing: border-box;
+      }
+      #img {
+        height: 550px;
+        width: 400px;
+        background-image: url(/PROJECTS/proj5/images/DarkPix1582531837-fzp07t72ipi41.jpg);
+        background-size: cover;
+        display: inline-block;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      #rhs {
+        height: 550px;
+        width: 400px;
+        display: inline-block;
+        background-color: blueviolet;
+        position: fixed;
+        background-color: black;
+      }
+      #form {
+        /* display: inline-block; */
+        width: 300px;
+        height: 450px;
+        margin: 0 auto;
+        margin-top: 55px;
+        align-items: center;
+        background-color: black;
+      }
+      h1 {
+        color: white;
+      }
+      #name {
+        color: white;
+        margin-top: 20px;
+        background-color: black;
+        width: 90%;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove rgb(184, 179, 179);
+      }
+      #date {
+        color: white;
+        margin-top: 40px;
+        background-color: black;
+        width: 90%;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove rgb(184, 179, 179);
+      }
+      #gen {
+        color: white;
+        text-decoration: white;
+        margin-top: 40px;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove rgb(184, 179, 179);
+        background-color: black;
+        width: 90%;
+        margin-top: 35px;
+      }
+      .placeholder {
+        color: white;
+      }
+      #email {
+        color: white;
+
+        margin-top: 45px;
+        background-color: black;
+        width: 90%;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove rgb(184, 179, 179);
+      }
+      #phone {
+        color: white;
+        margin-top: 45px;
+        background-color: black;
+        width: 90%;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove rgb(184, 179, 179);
+      }
+      #button {
+        width: 95px;
+        background-color: black;
+        height: 30px;
+        border-radius: 20px;
+        border-bottom-style: none;
+        background: rgb(29, 242, 64);
+        box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+        border: none;
+        color: white;
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+      }
+      #but {
+        margin-top: 40px;
+        background-color: black;
+      }
+      button {
+        border: none;
+        background-color: black;
+      }
+      body {
+        background-color: rgba(255, 75, 144, 0.215);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <div id="img"></div>
+      <div id="rhs">
+        <div id="form">
+          <h1>Registration Info</h1>
+          <!-- NAME -->
+          <input id="name" type="text" name="" placeholder="Name" />
+          <!-- BIRTHDATE -->
+          <input
+            id="date"
+            type="date"
+            value="birthday"
+            placeholder="Birthdate"
+          />
+          <!-- GENDER -->
+          <select name="" id="gen">
+            <option value="" disabled selected>Gender</option>
+            <option value="">Male</option>
+            <option value="">Female</option>
+            <option value="">Other</option>
+          </select>
+          <!-- EMAIL -->
+          <input id="email" type="text" name="" placeholder="Email" />
+          <!-- PHONE -->
+          <input id="phone" type="number" name="" placeholder="phone" />
+          <!-- SUBMIT -->
+          <div id="but">
+            <button><input id="button" type="submit" value="Login" /></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
